@@ -1,12 +1,8 @@
-import { MyComponent } from "./MyComponent";
 import "./App.css";
+import AddExpense from "./AddExpense";
 
 function App() {
-    return (
-        <div className="App">
-            <MyComponent />
-        </div>
-    );
+    return <AddExpense />;
 }
 
 export default App;
